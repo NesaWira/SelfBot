@@ -69,12 +69,13 @@ helpself ="""╔═════════════════
 ╠➩〘Getpict @〙
 ╠➩〘Getcover @〙
 ╠➩〘Mention〙
+╠➩〘Autokick:on/off〙
 ╠➩〘Sider on/off〙
 ╠➩〘Sider〙
 ╠➩〘Mimic on/off〙
 ╠➩〘Micadd @〙
 ╠➩〘Micdel @〙
-╚═════════════════
+╚═════════════════ 
 """
 
 helpset ="""╔═════════════════
@@ -493,7 +494,7 @@ def bot(op):
                  if wait["kickMention"] == True:
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Dont Tag Me!! Im Busy",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Fahmi Nya lagi off", cName + " Kenapa Tag saya?","SPAM PC aja " + cName, "Jangan Suka Tag gua " + cName, "Kamu siapa " + cName + "?", "Ada Perlu apa " + cName + "?","Tenggelamkan tuh yang suka tag pake BOT","Tersummon -_-"]
+                     balas = ["Dont Tag Me!! Im Busy",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja bouz","Nesa Nya lagi off", cName + " Kenapa Tag gua?","SPAM PC aja " + cName, "Jangan Suka Tag gua lolot " + cName, "lu siapa ngetag-ngetag " + cName + "?", "Ada Perlu apa kampang " + cName + "?","Tenggelamkan tuh yang suka tag pake BOT","Tersummon -_-"]
                      ret_ = "[Auto Respond] " + random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
