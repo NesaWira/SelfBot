@@ -22,7 +22,7 @@ else:
     import urllib.parse
 
 cl = LINETCR.LINE()
-cl.login(token="(Isi TOKEN Kamu)")
+cl.login(token="Eo1qlIayiLSqZXjfCEkc.bXcKkNxGPhATAhy524WgNa.aSJQHbI7ujNQEqi46/G7C31Z+MWRM5KydCguovmx8dc=")
 cl.loginResult()
 
 print "==================[Login Success]==================="
